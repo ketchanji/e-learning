@@ -194,66 +194,30 @@ hr{
   }
   .smallcontain h1{
     width: 100%;
-    font-size: 25px;
+    font-size: 45px;
     padding-left: 10px;
     padding-right: 20px;
     color: #fff;
   }
   .smallcontain h1 span{
-    font-size: 29px;
+    font-size: 30px;
     color: orange;
   }
   .smallcontain p{
-    font-size: 15px;
+    font-size: 23px;
     margin-top: 40px;
     padding-left: 10px;
     padding-right: 20px;
     color: rgb(214, 208, 208);
   }
-  .mediumcontain{
-    width: 80%;
-    height: 50px;
-    margin-top: 50px;
-    padding-left: 10px;
-    display: flex;
-  }
-  .firstside{
-    width: 70%;
-    height: 60vh;
-    margin-top: 50px;
-    padding-left: 5px;
-  }
-  .bar{
+  .container1{
     width: 100%;
-    height: 25vh;
-    margin-top: -4px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    height: 80vh;
   }
-  .bar h1{
-    font-size: 25px;
-    color: rgb(8, 46, 73);
-    padding-left: 10px;
-    padding-right: 5px;
-  }
-  .bar p{
-    font-size: 13px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: 5px;
-  }
-  .secondside{
-    width: 45%;
-    height: 75vh;
-    margin-top: 20px;
-    margin-left: 5px;
-  }
-  .secondside span img{
-    width: 90%;
-    height: 24vh;
-    border-radius: 5px;
-    border: 3px solid rgb(21, 105, 108);
+  .container2{
+    width: 100%;
+    height: 80vh;
+    display: none;
   }
 }
 
@@ -278,6 +242,24 @@ hr{
     width: 40%;
     margin: auto;
   }
+  .smallcontain h1{
+    width: 100%;
+    font-size: 29px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: #fff;
+  }
+  .smallcontain h1 span{
+    font-size: 30px;
+    color: orange;
+  }
+  .smallcontain p{
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: rgb(214, 208, 208);
+  }
   .container{
     width: 95%;
     height: 80vh;
@@ -291,78 +273,19 @@ hr{
     width: 95%;
     height: 80vh;
   }
-  .container2{
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .smallcontain h1{
-    width: 100%;
-    font-size: 30px;
-    padding-left: 10px;
-    padding-right: 20px;
-    color: #fff;
-  }
-  .smallcontain h1 span{
-    font-size: 30px;
-    color: orange;
-  }
-  .smallcontain p{
-    font-size: 19px;
-    margin-top: 40px;
-    padding-left: 10px;
-    padding-right: 20px;
-    color: rgb(214, 208, 208);
-  }
   .mediumcontain{
-    width: 80%;
+    width: 90%;
     height: 50px;
     margin-top: 50px;
     padding-left: 10px;
     display: flex;
   }
-  .firstside{
+  .container2{
     width: 100%;
-    height: 60vh;
-    margin-top: 60px;
-    padding-left: 0px;
-  }
-  .bar{
-    width: 100%;
-    height: 20vh;
-    margin-top: -4px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: rgb(255, 255, 255);
-  }
-  .bar h1{
-    font-size: 25px;
-    color: rgb(8, 46, 73);
-    padding-left: 10px;
-    padding-right: 5px;
-  }
-  .bar p{
-    font-size: 13px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: 5px;
-  }
-  .secondside{
-    width: 100%;
-    height: 75vh;
-    margin-top: 20px;
-    margin-left: 5px;
-  }
-  .secondside span img{
-    width: 95%;
-    height: 26vh;
-    object-fit: cover;
-    border-radius: 5px;
-    border: 3px solid rgb(13, 94, 97);
+    height: 80vh;
+    display: none;
   }
 }
-
 
 @media only screen and (max-width: 375px) {
   .logo p{
@@ -390,7 +313,6 @@ hr{
     margin: auto;
     margin-top: 15px;
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
   .container1{
@@ -400,26 +322,14 @@ hr{
   .container2{
     width: 100%;
     height: 80vh;
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
   .smallcontain h1{
-    width: 100%;
+    width: 93%;
     font-size: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #fff;
-  }
-  .smallcontain h1 span{
-    font-size: 25px;
-    color: orange;
-  }
-  .smallcontain p{
-    font-size: 15px;
-    margin-top: 40px;
     padding-left: 10px;
     padding-right: 20px;
-    color: rgb(214, 208, 208);
+    color: #fff;
   }
   .mediumcontain{
     width: 80%;
@@ -427,43 +337,5 @@ hr{
     margin-top: 50px;
     padding-left: 10px;
     display: flex;
-  }
-  .firstside{
-    width: 100%;
-    height: 60vh;
-    margin-top: 20px;
-    padding-left: 0px;
-  }
-  .bar{
-    width: 100%;
-    height: 20vh;
-    margin-top: -4px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: rgb(255, 255, 255);
-  }
-  .bar h1{
-    font-size: 25px;
-    color: rgb(8, 46, 73);
-    padding-left: 10px;
-    padding-right: 5px;
-  }
-  .bar p{
-    font-size: 13px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: 5px;
-  }
-  .secondside{
-    width: 100%;
-    height: 75vh;
-    margin-top: 20px;
-    margin-left: 5px;
-  }
-  .secondside span img{
-    width: 95%;
-    height: 24vh;
-    object-fit: cover;
-    border-radius: 5px;
   }
 }
