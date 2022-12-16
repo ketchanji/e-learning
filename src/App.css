@@ -35,13 +35,13 @@
 @media only screen and (max-width: 375px){
   .App{
     width: 100%;
-    height: 227vh;
+    height: 223vh;
     padding-top: 15px;
     background-color: rgb(23, 58, 73);
   }
   .main{
     width: 95%;
-    height: 225vh;
+    height: 223vh;
     margin: auto;
     border-radius: 10px;
     background-color: rgb(27, 31, 29);
@@ -51,13 +51,13 @@
 @media only screen and (max-width: 320px){
   .App{
     width: 100%;
-    height: 229vh;
+    height: 225vh;
     padding-top: 15px;
     background-color: rgb(23, 58, 73);
   }
   .main{
     width: 95%;
-    height: 227vh;
+    height: 223vh;
     margin: auto;
     border-radius: 10px;
     background-color: rgb(27, 31, 29);
