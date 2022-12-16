@@ -15,8 +15,8 @@ const Hero = (props) => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo veritatis, harum reiciendis excepturi impedit dignissimos!</p>
                 </div>
                 <div className="mediumcontain">
-                    <Button text="Sign-Up" style={{backgroundColor: "orange",marginRight: "15px",width: "140px",height: "60px"}} />
-                    <Button text="Learn More" style={{marginRight: "15px",width: "140px",height: "60px"}} />
+                    <Button text="Sign-Up" style={{backgroundColor: "orange",marginRight: "15px",width: "140px",height: "50px"}} />
+                    <Button text="Learn More" style={{marginRight: "15px",width: "140px",height: "50px"}} />
                 </div>
             </div>
             <div className="container2">
