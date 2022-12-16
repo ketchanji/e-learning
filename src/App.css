@@ -25,7 +25,7 @@
   }
   .main{
     width: 95%;
-    height: fit-content;
+    height: 85vh;
     margin: auto;
     border-radius: 10px;
     background-color: rgb(27, 31, 29);
@@ -41,7 +41,7 @@
   }
   .main{
     width: 95%;
-    height: fit-content;
+    height: 85vh;
     margin: auto;
     border-radius: 10px;
     background-color: rgb(27, 31, 29);
@@ -57,7 +57,7 @@
   }
   .main{
     width: 95%;
-    height: fit-content;
+    height: 95vh;
     margin: auto;
     border-radius: 10px;
     background-color: rgb(27, 31, 29);
