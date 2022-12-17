@@ -9,7 +9,7 @@ const NavBar = (props) => {
             <div className="logo">
                 <p><span>E</span>-Learn<span>.</span></p>
             </div>
-                <Button text="Login" />
+                <Button text="Login" Link to="/" />
             </div><hr />
         </div>
         

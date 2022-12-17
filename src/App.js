@@ -1,13 +1,17 @@
-import './App.css';
-import Hero from './component/Hero';
-import NavBar from './component/NavBar';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Login, Home } from "./pages";
 
 function App() {
   return (
     <div className="App">
       <div className="main">
-        <NavBar />
-        <Hero />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/" element={<Home />}></Route>
+          </Routes>
+        </BrowserRouter>
       </div>
     </div>
   );
