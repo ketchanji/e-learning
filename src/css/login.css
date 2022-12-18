@@ -1,0 +1,65 @@
+form{
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+form .first{
+    display: flex;
+    flex-direction: column;
+}
+form .second{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+label{
+    text-align: left;
+}
+form input{
+    width: 95%;
+    height: 35px;
+    background-color: rgba(155, 218, 230, 0.459);
+    border: 0;
+    padding-left: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.bigcard{
+    padding-top: 35px;
+}
+.card{
+    width: 60%;
+    height: 85vh;
+    margin: auto;
+}
+.card{
+    width: 60%;
+    height: 85vh;
+    margin: auto;
+}
+.card .logo{
+    text-align: center;
+}
+.card h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    color: rgb(69, 169, 215);
+}
+.innerCard{
+    width: 50%;
+    height: 40vh;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.innerCard p{
+    text-align: center;
+    color: rgb(69, 169, 215);
+}
+.innerCard p a{
+    text-decoration: none;
+    color: rgb(76, 77, 18);
+}

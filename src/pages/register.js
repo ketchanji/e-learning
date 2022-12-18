@@ -1,11 +1,12 @@
 import React from "react";
 import "../css/login.css";
+import "../css/register.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Form from "../component/LoginForm";
 import Logo from "../component/Logo";
+import RegisterForm from "../component/RegisterForm";
 
-const Login = () => {
+const Register = () => {
     const navigate = useNavigate();
 
     const navigatetoHome = () => {
@@ -16,11 +17,11 @@ const Login = () => {
     <div className="bigcard">
       <div className="card">
         <Logo onClick={navigatetoHome}/>
-        <h1>Login</h1>
-        <div className="innerCard">
-          <Form />
-          <p >
-            Don't have an account? <Link to={"/register"} >Register</Link>
+        <h1>Register</h1>
+        <div className="sideCard">
+          <RegisterForm />
+          <p>
+            Already have an account? <Link to={"/login"} >Login</Link>
           </p>
         </div>
       </div>
@@ -28,4 +29,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

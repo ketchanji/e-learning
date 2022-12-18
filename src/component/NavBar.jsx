@@ -1,19 +1,29 @@
-import React from 'react';
-import Button from './Button';
-
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import Button from "./Button";
+import Logo from "./Logo";
 
 const NavBar = (props) => {
-    return ( 
-        <div>
-            <div className="navbar">
-            <div className="logo">
-                <p><span>E</span>-Learn<span>.</span></p>
-            </div>
-                <Button text="Login" Link to="/" />
-            </div><hr />
-        </div>
-        
-     );
-}
- 
+  const navigate = useNavigate();
+
+  const navigatetoLogin = () => {
+    navigate("/login");
+  };
+
+  const navigatetoHome = () => {
+    navigate("/");
+  };
+
+  return (
+    <div>
+      <div className="navbar">
+        <Logo onClick={navigatetoHome}/>
+
+        <Button text="Login" onClick={navigatetoLogin} />
+      </div>
+      <hr />
+    </div>
+  );
+};
+
 export default NavBar;

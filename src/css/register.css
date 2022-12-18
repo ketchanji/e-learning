@@ -1,0 +1,62 @@
+.regform{
+    width: 90%;
+    height: 46vh;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.sideCard{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.sideCard p{
+    text-align: center;
+    color: rgb(69, 169, 215);
+}
+label{
+    text-align: left;
+}
+form input{
+    width: 95%;
+    height: 35px;
+    background-color: rgba(155, 218, 230, 0.459);
+    border: 0;
+    padding-left: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.bigcard{
+    padding-top: 35px;
+}
+.card{
+    width: 60%;
+    height: 85vh;
+    margin: auto;
+}
+.card .logo{
+    text-align: center;
+}
+.card h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(69, 169, 215);
+}
+.innerCard{
+    width: 50%;
+    height: 40vh;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.sideCard p{
+    text-align: center;
+    color: rgb(69, 169, 215);
+}
+.sideCard p a{
+    text-decoration: none;
+    color: rgb(76, 77, 18);
+}
