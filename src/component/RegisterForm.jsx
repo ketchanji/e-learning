@@ -7,7 +7,7 @@ const RegisterForm = (props) => {
 
 
   return (
-    <form className="regform">
+    <form name="register" className="regform">
       <span className="first">
         <label htmlFor="Username">Name:</label>
         <Input name="Username" type="text" placeHolder="Name" />

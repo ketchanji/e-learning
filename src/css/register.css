@@ -1,12 +1,12 @@
 .regform{
     width: 90%;
-    height: 46vh;
+    height: 48vh;
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
 .sideCard{
-    width: 50%;
-    height: 50vh;
+    width: 60%;
+    height: 53vh;
     margin: auto;
     padding-top: 30px;
     background-color: rgb(255, 255, 255);
@@ -18,7 +18,7 @@
 label{
     text-align: left;
 }
-form input{
+.regform input{
     width: 95%;
     height: 35px;
     background-color: rgba(155, 218, 230, 0.459);
@@ -41,17 +41,11 @@ form input{
 .card h1{
     font-size: 40px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 10px;
     color: rgb(69, 169, 215);
 }
-.innerCard{
-    width: 50%;
-    height: 40vh;
-    margin: auto;
-    padding-top: 30px;
-    background-color: rgb(255, 255, 255);
-}
+
 .sideCard p{
     text-align: center;
     color: rgb(69, 169, 215);
@@ -59,4 +53,8 @@ form input{
 .sideCard p a{
     text-decoration: none;
     color: rgb(76, 77, 18);
+}
+
+@media only screen and (max-width: 1024px) {
+    
 }

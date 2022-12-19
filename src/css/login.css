@@ -50,7 +50,7 @@ form input{
 }
 .innerCard{
     width: 50%;
-    height: 40vh;
+    height: 35vh;
     margin: auto;
     padding-top: 30px;
     background-color: rgb(255, 255, 255);
@@ -63,3 +63,137 @@ form input{
     text-decoration: none;
     color: rgb(76, 77, 18);
 }
+
+@media only screen and (max-width: 1024px) {
+    form{
+        width: 90%;
+        height: 35vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .innerCard{
+        width: 60%;
+        height: 40vh;
+        margin: auto;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    form{
+        width: 90%;
+        height: 35vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .innerCard{
+        width: 60%;
+        height: 40vh;
+        margin: auto;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    form{
+        width: 90%;
+        height: 35vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .innerCard{
+        width: 100%;
+        height: 40vh;
+        margin: auto;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    form input{
+        width: 92%;
+        height: 35px;
+        background-color: rgba(155, 218, 230, 0.459);
+        border: 0;
+        padding-left: 15px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    .card h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    form{
+        width: 90%;
+        height: 35vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .innerCard{
+        width: 260px;
+        height: 40vh;
+        margin: auto;
+        margin-left: -20px;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    form input{
+        width: 92%;
+        height: 35px;
+        background-color: rgba(155, 218, 230, 0.459);
+        border: 0;
+        padding-left: 15px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    .card h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    form{
+        width: 90%;
+        height: 35vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .innerCard{
+        width: 260px;
+        height: 40vh;
+        margin: auto;
+        margin-left: -35px;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    form input{
+        width: 92%;
+        height: 35px;
+        background-color: rgba(155, 218, 230, 0.459);
+        border: 0;
+        padding-left: 15px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    .card h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
