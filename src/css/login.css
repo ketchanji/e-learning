@@ -172,10 +172,10 @@ form input{
         background-color: rgb(255, 255, 255);
     }
     .innerCard{
-        width: 260px;
+        width: 280px;
         height: 40vh;
         margin: auto;
-        margin-left: -35px;
+        margin-left: -48px;
         padding-top: 30px;
         background-color: rgb(255, 255, 255);
     }
