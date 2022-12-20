@@ -139,10 +139,10 @@ form input{
         background-color: rgb(255, 255, 255);
     }
     .innerCard{
-        width: 260px;
+        width: 150%;
         height: 40vh;
         margin: auto;
-        margin-left: -20px;
+        margin-left: -55px;
         padding-top: 30px;
         background-color: rgb(255, 255, 255);
     }
@@ -158,7 +158,7 @@ form input{
     .card h1{
         font-size: 40px;
         text-align: center;
-        margin-top: 35px;
+        margin-top: 30px;
         margin-bottom: 10px;
         color: rgb(69, 169, 215);
     }
@@ -172,10 +172,10 @@ form input{
         background-color: rgb(255, 255, 255);
     }
     .innerCard{
-        width: 280px;
+        width: 165%;
         height: 40vh;
         margin: auto;
-        margin-left: -48px;
+        margin-left: -59px;
         padding-top: 30px;
         background-color: rgb(255, 255, 255);
     }
