@@ -56,5 +56,162 @@ label{
 }
 
 @media only screen and (max-width: 1024px) {
-    
+    .regform{
+        width: 90%;
+        height: 55vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .sideCard{
+        width: 60%;
+        height: 60vh;
+        margin: auto;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .card .logo{
+        margin-top: -35px;
+        text-align: center;
+    }
+    .card h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .regform{
+        width: 90%;
+        height: 55vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .sideCard{
+        width: 75%;
+        height: 60vh;
+        margin: auto;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .card .logo{
+        margin-top: -35px;
+        text-align: center;
+    }
+    .card h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .regform{
+        width: 90%;
+        height: 55vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .sideCard{
+        width: 150%;
+        height: 60vh;
+        margin: auto;
+        margin-left: -59px;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .card .logo{
+        margin-top: -35px;
+        text-align: center;
+    }
+    .card .logo span{
+        font-size: 45px;
+    }
+    .card .logo p{
+        font-size: 25px;
+    }
+    .card h1{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .regform{
+        width: 90%;
+        height: 55vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .sideCard{
+        width: 160%;
+        height: 60vh;
+        margin: auto;
+        margin-left: -65px;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .card .logo{
+        margin-top: -35px;
+        text-align: center;
+    }
+    .card .logo span{
+        font-size: 40px;
+    }
+    .card .logo p{
+        font-size: 30px;
+    }
+    .card h1{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .regform{
+        width: 90%;
+        height: 55vh;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .sideCard{
+        width: 160%;
+        height: 60vh;
+        margin: auto;
+        margin-left: -55px;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    .card .logo{
+        margin-top: -35px;
+        text-align: center;
+    }
+    .card .logo span{
+        font-size: 40px;
+    }
+    .card .logo p{
+        font-size: 30px;
+    }
+    .card h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(69, 169, 215);
+    }
 }
