@@ -2,8 +2,8 @@ import React from "react";
 import "../css/login.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Form from "../component/LoginForm";
-import Logo from "../component/Logo";
+import Form from "../component/UI/LoginForm";
+import Logo from "../component/UI/Logo";
 
 const Login = () => {
     const navigate = useNavigate();

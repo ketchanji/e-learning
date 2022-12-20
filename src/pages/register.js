@@ -3,8 +3,8 @@ import "../css/login.css";
 import "../css/register.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Logo from "../component/Logo";
-import RegisterForm from "../component/RegisterForm";
+import Logo from "../component/UI/Logo";
+import RegisterForm from "../component/UI/RegisterForm";
 
 const Register = () => {
     const navigate = useNavigate();
