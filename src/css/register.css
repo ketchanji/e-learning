@@ -182,7 +182,7 @@ label{
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
     .regform{
         width: 90%;
         height: 55vh;
@@ -193,7 +193,7 @@ label{
         width: 160%;
         height: 60vh;
         margin: auto;
-        margin-left: -58px;
+        margin-left: -55px;
         padding-top: 30px;
         background-color: rgb(255, 255, 255);
     }
