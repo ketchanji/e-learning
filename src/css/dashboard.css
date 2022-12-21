@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidenav{
+    width: 150px;
+    height: 95vh;
+    margin-left: -33px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    background-color: blueviolet;
+}
+.sidenav .logo{
+    color: aqua;
+    font-size: 10px;
+}
+.home {
+    width: 70px;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.msg {
+    width: 70px;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
