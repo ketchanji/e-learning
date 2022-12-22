@@ -5,28 +5,123 @@
 .sidenav{
     width: 150px;
     height: 95vh;
+    border-right: 2px solid #fff;
     margin-left: -33px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     position: fixed;
-    background-color: blueviolet;
-}
-.sidenav .logo{
-    color: aqua;
-    font-size: 10px;
-}
-.home {
-    width: 70px;
-    height: 60px;
-    margin: auto;
-    margin-top: 10px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(27, 31, 29); */
+    background-image: linear-gradient(to bottom, rgb(27, 31, 29) 38%, rgb(23, 141, 84));
 }
 
-.msg {
+.logo {
     width: 70px;
-    height: 60px;
+    height: 50px;
+    padding-left: 15px;
     margin: auto;
-    margin-top: 10px;
-    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
+
+.navicon{
+    width: 100%;
+    height: fit-content;
+    padding-left: 15px;
+}
+.firstsection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 30px;
+}
+.secondsection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 140px;
+}
+.thirdsection{
+    width: 100%;
+    height: 10vh;
+}
+
+.home, .notification {
+    width: 70px;
+    height: 50px;
+    margin: auto;
+}
+.user, .setting {
+    width: 70px;
+    height: 50px;
+    margin: auto;
+}
+.logout{
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.vidbox{
+    width: 83%;
+    height: 95vh;
+    position: fixed;
+    background-color: rgb(27, 31, 29);
+    margin-left: 120px;
+}
+.header{
+    width: 100%; 
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(27, 31, 29);
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.timer{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.timer span{
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: rgb(68, 171, 171);
+    border-radius: 5px;
+}
+.videoBox{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(92, 72, 72);
+}
+.box{
+    width: 30%;
+    height: 30vh;
+    margin: 9px 9px;
+    border-radius: 10px;
+    background-color: rgb(25, 211, 149);
+}
+.bottom{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(27, 31, 29);
+}
+.buttons{
+    width: 60%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
