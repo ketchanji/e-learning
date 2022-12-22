@@ -9,7 +9,7 @@ import { MdSpaceDashboard } from 'react-icons/md'
 const SideBar = () => {
   return (
     <div className="sidenav">
-      <div className="logo">
+      <div className="board">
     <MdSpaceDashboard color="#fff" size={40} />
       </div>
       <div className="navicon">
